@@ -1,0 +1,36 @@
+.bgc{
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+.info{
+    display: flex;
+    /* flex-direction: column; */
+   
+    width: 200px;
+    height:500px ;
+    border-radius: 5px;
+   
+}
+
+.form{
+    margin: 0;
+    padding-top: 5px;
+
+}
+.text{
+    margin-bottom: 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.perso{
+    width: 500px;
+}
+.img{
+     background-image: url('../../../img/sidebar.svg');
+    border-radius: 5px;
+}
+.p{
+    color: grey;
+}
