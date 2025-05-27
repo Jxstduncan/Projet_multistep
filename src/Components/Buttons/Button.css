@@ -1,14 +1,24 @@
 .index{
     z-index: 1;
    width: 270px;
-
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .btn{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #483eff;
     border: 1px white solid;
     color: white;
     
+}
+.uno{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.dos{
+    margin-bottom: 10px;
 }

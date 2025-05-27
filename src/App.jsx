@@ -3,14 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './Components/Card/Card'
+import data from '../abonnement.json'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [text, setText] = useState('')
+   const changeText = ()=>{
+    setText(text)
+   }
   return (
     <>
       <div className='df'>
-        <Card/>
+        <Card changeText={text} />
       </div>
     </>
   )

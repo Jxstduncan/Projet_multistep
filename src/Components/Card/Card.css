@@ -2,6 +2,11 @@
     background-color: white;
     border: 0px;
     border-radius: 5px;
+    width: 700px;
+    display: flex;
+    justify-self: center;
+    margin-top: 30px;
+    padding: 10px;
     
 }
 .info{
@@ -23,6 +28,12 @@
     margin-bottom: 10px;
     border: 1px black solid;
     border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    
+}
+.violet{
+    border-color: blueviolet;
 }
 .perso{
     width: 500px;
@@ -30,6 +41,7 @@
 .img{
      background-image: url('../../../img/sidebar.svg');
     border-radius: 5px;
+    
 }
 .p{
     color: grey;

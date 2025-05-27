@@ -4,9 +4,9 @@ function Button(){
     return(
         <div>
             <div className="index">
-                <button  className='btn'>1</button>
-                <button className='btn'>2</button>
-                <button className='btn'>3</button>
+                <button  className='btn uno'>1</button>
+                <button className='btn dos'>2</button>
+                <button className='btn treis'>3</button>
             </div>
         </div>
     )
