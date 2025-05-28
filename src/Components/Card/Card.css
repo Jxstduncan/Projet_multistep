@@ -2,7 +2,7 @@
     background-color: white;
     border: 0px;
     border-radius: 5px;
-    width: 700px;
+    width: 800px;
     display: flex;
     justify-self: center;
     margin-top: 30px;
@@ -30,11 +30,10 @@
     border-radius: 5px;
     width: 300px;
     height: 35px;
-    
+    outline-color: blueviolet;
 }
-.violet{
-    border-color: blueviolet;
-}
+
+
 .perso{
     width: 500px;
 }
@@ -45,4 +44,21 @@
 }
 .p{
     color: grey;
+}
+.information{
+    margin-left: 50px;
+}
+.steps{
+    display: flex;
+    float: right;
+    margin-right: 60px;
+    margin-top: 170px;
+}
+.next{
+    background-color: purple;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 75px;
+    border-radius: 5%;
 }

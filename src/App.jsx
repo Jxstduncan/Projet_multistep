@@ -7,13 +7,15 @@ import data from '../abonnement.json'
 
 function App() {
   const [text, setText] = useState('')
-   const changeText = ()=>{
-    setText(text)
+   const changeText = (e)=>{
+    setText(e.target.value)
+    
+    
    }
   return (
     <>
       <div className='df'>
-        <Card changeText={text} />
+        <Card text={text} changeText={changeText} />
       </div>
     </>
   )
